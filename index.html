@@ -15,19 +15,36 @@
     <br>
     <h2>Survey</h2>
     <p>Answer to the best of your ability and the survey below will find your ideal language match.</p>
-    <button type="submit" class="btn btn-primary">Start Survey</button>
-    
+    <button type="submit" class="btn btn-primary" id="start">Start Survey</button>
+    <div class="survey-showing">
+      <form id="survey">
+        <div class="radio">
+          <label for="project-type">What type of projects would you enjoy most?
+            <br>
+            <input type="radio" name="project-type" value="web-development">Web Developement
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="project-type" value="video-game">Creating Video Games
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="project-type" value="mobile-app">Mobile Applications
+          </label>
+        </div>
+      </form>
+    </div>
+    <h2>Enter your name and email below for a chance to win a free intro course at <a href="https://www.epicodus.com/">Epicodus</a>:</h2>
     <form id="user">
-      <div class="form-group">
-        <label for="name">Enter your name and email for a chance to git a free intro course at Epicodus: 
-          <br>
-          <strong>Name</strong>
-        </label>
-        <input id="name" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="email"><strong>Email</strong></label>
-        <input id="email" class="form-control" type="text">
+      <div class="row">
+        <div class="col">
+            <input id="name" class="form-control" type="text" placeholder="Full Name">
+        </div>
+        <div class="col">
+          <input id="email" class="form-control" type="text" placeholder="Email">
+        </div>
       </div>
       <button type="submit" class="btn btn-success">Submit</button>
     </form>
