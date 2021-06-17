@@ -8,5 +8,7 @@ $(document).ready(function() {
   $("button#start").click(function() {
     $(".survey-showing").show();
   });
-  
+  $("button#complete-form").click(function() {
+    $(".match").show();
+  })
 })
