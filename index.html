@@ -20,28 +20,36 @@
       <form id="survey">
         <div class="form-group">
           <label for="dumb-tears">Are you okay with feeling dumb to the point of tears?
-            <select class="form-controls" id="dumb-tears">
+            <select class="form-control" id="dumb-tears">
               <option value="never">I am not okay with that</option>
               <option value="sometimes">A couple tears never hurt anyone</option>
               <option value="yes">Bring it on</option>
             </select>
           </label>
         </div>
-        <div class="radio">
+        <div class="form-group">
           <label for="project-type">What type of projects would you enjoy most?
-            <br>
-            <input type="radio" name="project-type" value="web-development">Web Developement
+            <select class="form-control" id="project-type">
+              <option value="web-development">Web Development</option>
+              <option value="web-design">Design</option>
+              <option value="video-game">Creating Video Games</option>
+              <option value="desktop-software">Desktop Software</option>
+            </select>
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="project-type" value="video-game">Creating Video Games
+        <h2>Finish the Statement:</h2>
+        <div class="form-group">
+          <label for="something-to-master">One thing I would love to master in programming is...
+            <select class="form-control" id="project-type">
+              <option value="graphics">Stunning Graphics</option>
+              <option value="web-logic">Web Logic</option>
+              <option value="web-ux">Web UX: how to interact with things</option>
+            </select>
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="project-type" value="mobile-app">Mobile Applications
-          </label>
+        <div class="form-group">
+          <label for="color"> Last but not least, pick your favorite color</label>
+          <input id="color" class="form-control" type="color">
         </div>
       </form>
     </div>
