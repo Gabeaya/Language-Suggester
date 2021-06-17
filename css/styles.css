@@ -1,3 +1,6 @@
 .survey-showing {
   display: none;
 }
+#match {
+  display: none;
+}
