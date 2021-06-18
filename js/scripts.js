@@ -3,7 +3,7 @@
 //User Interface Logic:
 $(document).ready(function() {
   $("button#start").click(function() {
-    $("#survey-showing").fadeIn();
+    $("#surveyShowing").fadeIn();
   });
   $("form#survey").submit(function(event) {
     const dumbTears = $("select#dumb-tears").val();
@@ -20,6 +20,7 @@ $(document).ready(function() {
     } else if (projectType === 'desktop-software') {
       matchShowing = "Swift";
     } 
+    $("#surveyShowing").show();
     $("#matchShowing").show();
     $("#language").text(matchShowing);
     
