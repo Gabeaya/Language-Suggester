@@ -6,8 +6,7 @@ $(document).ready(function() {
     $("#survey-showing").fadeIn();
   });
   $("form#survey").submit(function(event) {
-    
-    
+    const dumbTears = $("select#dumb-tears").val();
     const  projectType = $("select#project-type").val();
     const somethingToMaster = $("select#something-to-master").val();
     const money = $("select#money") .val();
@@ -15,11 +14,11 @@ $(document).ready(function() {
     if (projectType === 'web-developement') {
       matchShowing = "Javascript";
     } else if (projectType === 'web-design') {
-      matchShowing = "C++";
-    } else if (projectType === 'video-game') {
       matchShowing = "HTML5";
+    } else if (projectType === 'video-game') {
+      matchShowing = "C++";
     } else if (projectType === 'desktop-software') {
-      matchShowing = "Your mom";
+      matchShowing = "Swift";
     } 
     $("#matchShowing").show();
     $("#language").text(matchShowing);
