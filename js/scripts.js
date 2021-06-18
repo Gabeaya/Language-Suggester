@@ -23,6 +23,7 @@ $(document).ready(function() {
     } 
     
     $("#matchShowing").show();
+    $(".row, .col, #find").hide();
     $("#language").text(matchShowing);
 
     event.preventDefault();
