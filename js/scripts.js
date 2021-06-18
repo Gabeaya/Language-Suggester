@@ -4,7 +4,7 @@
 $(document).ready(function() {
   $("button#start").click(function() {
     $("#surveyShowing").fadeIn();
-    $("#start").hide();
+    $("#start, #prompt").hide();
   });
   $("form#survey").submit(function(event) {
     const dumbTears = $("select#dumb-tears").val();
@@ -23,7 +23,7 @@ $(document).ready(function() {
     } 
     
     $("#matchShowing").show();
-    $("#prompt, .row, .col, #find").hide();
+    $(".row, .col, #find").hide();
     $("#language").text(matchShowing);
     
     event.preventDefault();
