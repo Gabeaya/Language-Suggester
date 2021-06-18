@@ -16,7 +16,8 @@
     <h2>Survey</h2>
     <p>Answer to the best of your ability and the survey below will find your ideal language match.</p>
     <button type="submit" class="btn btn-primary" id="start">Start Survey</button>
-    <div class="survey-showing">
+    
+    <div id="survey-showing">
       <form id="survey">
         <div class="form-group">
           <label for="dumb-tears">Are you okay with feeling dumb to the point of tears?
@@ -60,25 +61,13 @@
           <label for="color"> Last but not least, what is your favorite color?</label>
           <input id="color" class="form-control" type="color">
         </div>
-        <button type="submit" class="btn btn-success" id="complete-form">Find my match!</button>
+        <button type="submit" class="btn btn-success">Find my match!</button>
+        <br>
+        <div id="matchShowing">
+          <p>Based on your results you would do best learning <span id="language"></span></p>
+      </div>
       </form>
-      <br>
-      <div id="match">
-        <p>Based on your results you would do best learning <span id="language"></span></p>
-      </div>
     </div>
-    <h2>Enter your name and email below for a chance to win a free intro course at <a href="https://www.epicodus.com/">Epicodus</a>:</h2>
-    <form id="user">
-      <div class="row">
-        <div class="col">
-            <input id="name" class="form-control" type="text" placeholder="Full Name">
-        </div>
-        <div class="col">
-          <input id="email" class="form-control" type="text" placeholder="Email">
-        </div>
-      </div>
-      <button type="submit" class="btn btn-success">Submit</button>
-    </form>
   </div>
 </body>
 </html>
