@@ -19,53 +19,57 @@
     
     <div id="surveyShowing">
       <form id="survey">
-        <div class="form-group">
-          <label for="dumb-tears">Are you okay with feeling dumb to the point of tears?
-            <select class="form-control" id="dumb-tears">
-              <option value="never">I am not okay with that</option>
-              <option value="sometimes">A couple tears never hurt anyone</option>
-              <option value="yes">Bring it on</option>
-            </select>
-          </label>
+        <div class="row">
+          <div class="col-6">
+            <label for="dumb-tears">Are you okay with feeling dumb to the point of tears?
+              <select class="form-control" id="dumb-tears">
+                <option value="never">I am not okay with that</option>
+                <option value="sometimes">A couple tears never hurt anyone</option>
+                <option value="yes">Bring it on</option>
+              </select>
+            </label>
+          </div>
+          <div class="col-6">
+            <label for="project-type">What type of projects would you enjoy most?
+              <select class="form-control" id="project-type">
+                <option value="web-development">Web Development</option>
+                <option value="web-design">Design</option>
+                <option value="video-game">Creating Video Games</option>
+                <option value="desktop-software">Desktop Software</option>
+              </select>
+            </label>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="project-type">What type of projects would you enjoy most?
-            <select class="form-control" id="project-type">
-              <option value="web-development">Web Development</option>
-              <option value="web-design">Design</option>
-              <option value="video-game">Creating Video Games</option>
-              <option value="desktop-software">Desktop Software</option>
-            </select>
-          </label>
+        <div class="row">
+          <div class="col-6">
+            <label for="something-to-master">Finish the statement:
+            <br>One thing I would love to master in programming is...
+              <select class="form-control" id="something-to-master">
+                <option value="graphics">Stunning Graphics</option>
+                <option value="web-logic">Web Logic</option>
+                <option value="web-ux">Web UX: how to interact with things</option>
+              </select>
+            </label>
+          </div>
+          <div class="col-6">
+            <label for="money">How much money would you like to make?
+              <select class="form-control" id="money">
+                <option value="rich">I want to make it rain</option>
+                <option value="decent">I want to support a family</option>
+                <option value="cheap">This is just a side gig</option>
+              </select>
+            </label>
+          </div>
         </div>
-        <p>Finish the Statement:</p>
-        <div class="form-group">
-          <label for="something-to-master">One thing I would love to master in programming is...
-            <select class="form-control" id="something-to-master">
-              <option value="graphics">Stunning Graphics</option>
-              <option value="web-logic">Web Logic</option>
-              <option value="web-ux">Web UX: how to interact with things</option>
-            </select>
-          </label>
-        </div>
-        <div class="form-group">
-          <label for="money">How much money would you like to make?
-            <select class="form-control" id="money">
-              <option value="rich">I want to make it rain</option>
-              <option value="decent">I want to support a family</option>
-              <option value="cheap">This is just a side gig</option>
-            </select>
-          </label>
-        </div>
-        <div class="form-group">
+        <div class="col">
           <label for="color"> Last but not least, what is your favorite color?</label>
           <input id="color" class="form-control" type="color">
         </div>
-        <button type="submit" class="btn btn-success">Find my match!</button>
-        <br>
+        <button type="submit" class="btn btn-success" id="find">Find my match!</button>
+        <br>   
         <div id="matchShowing">
           <p>Based on your results you would do best learning <span id="language"></span></p>
-      </div>
+        </div>
       </form>
     </div>
   </div>
