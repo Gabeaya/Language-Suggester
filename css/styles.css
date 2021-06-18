@@ -1,6 +1,9 @@
-.survey-showing {
+.btn {
+  display: block;
+}
+#survey-showing {
   display: none;
 }
-#match {
+#matchShowing {
   display: none;
 }
