@@ -4,6 +4,7 @@
 $(document).ready(function() {
   $("button#start").click(function() {
     $("#surveyShowing").fadeIn();
+    $("#start").hide();
   });
   $("form#survey").submit(function(event) {
     const dumbTears = $("select#dumb-tears").val();
@@ -20,10 +21,11 @@ $(document).ready(function() {
     } else if (projectType === 'desktop-software') {
       matchShowing = "Swift";
     } 
-    $("#surveyShowing").show();
+    
     $("#matchShowing").show();
     $("#language").text(matchShowing);
-    
+
     event.preventDefault();
   });
+  
 });
