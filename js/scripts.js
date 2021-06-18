@@ -12,7 +12,7 @@ $(document).ready(function() {
     const somethingToMaster = $("select#something-to-master").val();
     const money = $("select#money") .val();
     
-    if (projectType === 'web-developement') {
+    if (projectType === 'web-development') {
       matchShowing = "Javascript";
     } else if (projectType === 'web-design') {
       matchShowing = "HTML5";
