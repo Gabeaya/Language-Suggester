@@ -19,6 +19,9 @@
   width: 100;
   height: auto;
 }
+.revert {
+  display: none;
+}
 #surveyShowing {
   display: none;
 }
