@@ -19,6 +19,8 @@ _This web application was created to provide the user with a forms survey that w
 * _Now type: git clone https://github.com/Gabeaya/Language-Suggester.git
 * _Now enter the directory: cd Language-Suggester_
 * _From here you can either open it in VS code (enter in terminal: code .) or you can find the directory and open the index.html file to view the webpage._
+* _To simply see the github pages copy this url: gabeaya.github.io/Language-Suggestor.git_
+* _Paste the Url above into your browser and enjoy_
 
 ## Known Bugs
 * _Not necessarily a bug but only one of the five forms actually changes the resulting language_
