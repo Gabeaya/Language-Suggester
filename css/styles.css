@@ -3,9 +3,10 @@
   background-color: rgb(29, 26, 26);
   
 }
-.heading-border {
-  border: 2px solid green;
+.format {
   padding: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   display: block;
   margin: auto;
   margin-top: 20px;
