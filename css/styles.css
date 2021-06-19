@@ -1,4 +1,7 @@
-
+body {
+  background-color: rgb(35, 18, 12);
+  color: rgb(255, 255, 255);
+}
 #surveyShowing {
   display: none;
 }
