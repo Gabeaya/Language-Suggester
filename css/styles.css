@@ -1,10 +1,9 @@
-body {
-  background-image: url("/img/code-pic.gif");
-  background-color: rgba(255,118,0,0.78);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+.dark-background {
+  color: rgb(7, 184, 7);
+  background-color: rgb(29, 26, 26);
+  
 }
+
 #surveyShowing {
   display: none;
 }
