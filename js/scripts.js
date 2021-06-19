@@ -7,6 +7,8 @@ $(document).ready(function() {
     $("#start, #prompt").hide();
   });
   $("form#survey").submit(function(event) {
+    event.preventDefault();
+    const name = $("input#name").val();
     const dumbTears = $("select#dumb-tears").val();
     const  projectType = $("select#project-type").val();
     const somethingToMaster = $("select#something-to-master").val();
@@ -22,11 +24,13 @@ $(document).ready(function() {
       matchShowing = "Swift";
     } 
     
-    $("#matchShowing").show();
-    $(".row, .col, #find").hide();
-    $("#language").text(matchShowing);
     
-    event.preventDefault();
+    $(".row, .col, #find").hide();
+    $("#user").text(name);
+    $("#language").text(matchShowing);
+    $("#matchShowing").show();
+    
+    
   });
   
   
