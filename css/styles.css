@@ -3,7 +3,10 @@
   background-color: rgb(29, 26, 26);
   
 }
-
+.centered-image {
+  width: 100;
+  height: auto;
+}
 #surveyShowing {
   display: none;
 }
