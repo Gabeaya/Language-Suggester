@@ -21,6 +21,7 @@
 }
 .revert {
   display: none;
+  float: right;
 }
 #surveyShowing {
   display: none;
