@@ -3,8 +3,11 @@
 //User Interface Logic:
 $(document).ready(function() {
   $("button#dark").click(function() {
+    $("body").removeClass();
     $("body").addClass("dark-background");
-    $()
+    $(".revert").show();
+    $(".float-right").hide();
+    
   });
   $("button#start").click(function() {
     $("#surveyShowing").fadeIn();
