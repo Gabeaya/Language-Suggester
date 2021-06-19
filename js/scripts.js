@@ -30,7 +30,7 @@ $(document).ready(function() {
     
     
     $(".row, .col, #find").hide();
-    $("#user").text(name);
+    $("#user").text(" " + name);
     $("#language").text(matchShowing);
     $("#matchShowing").show();
   });
