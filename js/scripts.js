@@ -2,6 +2,10 @@
 
 //User Interface Logic:
 $(document).ready(function() {
+  $("button#dark").click(function() {
+    $("body").addClass("dark-background");
+    $()
+  });
   $("button#start").click(function() {
     $("#surveyShowing").fadeIn();
     $("#start, #prompt").hide();
@@ -30,10 +34,4 @@ $(document).ready(function() {
     $("#language").text(matchShowing);
     $("#matchShowing").show();
   });
-
-  $("button#dark").click(function() {
-    $("body").addClass("dark-backgorund");
-  });
-  
-  
 });
