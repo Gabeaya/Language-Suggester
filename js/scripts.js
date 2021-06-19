@@ -7,7 +7,12 @@ $(document).ready(function() {
     $("body").addClass("dark-background");
     $(".revert").show();
     $(".float-right").hide();
-    
+  });
+  $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-background");
+    $(".float-right").show(); 
+    $(".revert").hide();
   });
   $("button#start").click(function() {
     $("#surveyShowing").fadeIn();
