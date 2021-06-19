@@ -1,7 +1,11 @@
 .dark-background {
   color: rgb(7, 184, 7);
   background-color: rgb(29, 26, 26);
-  
+}
+.light-background {
+  color: black;
+  background-color: white;
+
 }
 .format {
   padding: 5px;
