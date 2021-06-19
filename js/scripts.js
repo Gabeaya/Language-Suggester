@@ -29,8 +29,10 @@ $(document).ready(function() {
     $("#user").text(name);
     $("#language").text(matchShowing);
     $("#matchShowing").show();
-    
-    
+  });
+
+  $("button#dark").click(function() {
+    $("body").addClass("dark-backgorund");
   });
   
   
