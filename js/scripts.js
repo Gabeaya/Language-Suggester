@@ -1,6 +1,3 @@
-//Business Logic:
-
-//User Interface Logic:
 $(document).ready(function() {
   $("button#dark").click(function() {
     $("body").removeClass();
