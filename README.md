@@ -5,8 +5,8 @@
 * _HTML_
 * _CSS_
 * _Bootstrap_
-* _jQuery
-* _JavaScript
+* _jQuery_
+* _JavaScript_
 * _VS Code_
 * _Github_
 * _Terminal_
@@ -16,7 +16,7 @@ _This web application was created to provide the user with a forms survey that w
 * _Copy my Github URL: https://github.com/Gabeaya/Language-Suggester.git_
 * _Open Terminal on computer (Cmnd T)_
 * _Confirm you are in the desktop (cd ~/desktop)_
-* _Now type: git clone https://github.com/Gabeaya/Language-Suggester.git
+* _Now type: git clone https://github.com/Gabeaya/Language-Suggester.git_
 * _Now enter the directory: cd Language-Suggester_
 * _From here you can either open it in VS code (enter in terminal: code .) or you can find the directory and open the index.html file to view the webpage._
 * _To simply see the github pages copy this url: gabeaya.github.io/Language-Suggestor.git_
